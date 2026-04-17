@@ -29,9 +29,3 @@ Personal portfolio site for Ulises Chavarria — hosted on GitHub Pages at [ulis
 5. **Get to Know Me** — interests outside of engineering
 6. **Experience** — Shifamed (Laza Medical + Myra Vision), Spartan Racing Electric
 7. **Contact** — GitHub, LinkedIn, email
-
-## Before going live
-
-- [ ] Add `assets/headshot.*` and swap the placeholder in the About section
-- [ ] Add `assets/resume.pdf` (hero Resume button links here)
-- [ ] Confirm GitHub Pages is set to serve from `master` branch root
