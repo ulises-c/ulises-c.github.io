@@ -665,6 +665,52 @@ strong { color: var(--cyan); font-weight: 600; }
 }
 
 /* ================================================
+   GET TO KNOW ME
+   ================================================ */
+.personal-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+.personal-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: border-color 0.22s, transform 0.22s;
+}
+.personal-card:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-3px);
+}
+
+.personal-icon { font-size: 1.8rem; line-height: 1; }
+
+.personal-card h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-0);
+}
+
+.personal-card p {
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+
+/* Headshot (swap in when photo is added) */
+.headshot {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--r-lg);
+  display: block;
+}
+
+/* ================================================
    SCROLL FADE-UP ANIMATION
    ================================================ */
 .fade-up {
@@ -694,6 +740,7 @@ strong { color: var(--cyan); font-weight: 600; }
   .about-photo { display: none; }
   .skills-grid { grid-template-columns: 1fr 1fr; }
   .projects-grid { grid-template-columns: 1fr 1fr; }
+  .personal-grid { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 680px) {
@@ -718,6 +765,7 @@ strong { color: var(--cyan); font-weight: 600; }
   .hero-ctas { flex-direction: column; align-items: flex-start; }
   .skills-grid { grid-template-columns: 1fr; }
   .projects-grid { grid-template-columns: 1fr; }
+  .personal-grid { grid-template-columns: 1fr 1fr; }
   .timeline { padding-left: 28px; }
   .tl-dot { left: -24px; }
 }

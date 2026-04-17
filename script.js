@@ -58,6 +58,7 @@ const fadeTargets = [
   '.project-card',
   '.tl-item',
   '.skill-card',
+  '.personal-card',
   '.about-text',
   '.about-photo',
   '.contact-wrap',
