@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ulises Chavarria — Applied AI & Systems Engineer. Robotics, embedded firmware, and ML pipelines.">
+  <meta name="description" content="Ulises Chavarria, Applied AI & Systems Engineer. Robotics, embedded firmware, and ML pipelines.">
   <title>Ulises Chavarria</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -37,13 +37,13 @@
         <span class="mono accent" id="typewriter"></span><span class="cursor mono accent">▋</span>
       </div>
       <p class="hero-bio">
-        Building at the intersection of hardware and AI — from embedded motor firmware on ESP32
+        Building at the intersection of hardware and AI, from embedded motor firmware on ESP32
         to distributed ML pipelines and multi-agent LLM systems.
       </p>
       <div class="hero-ctas">
         <a href="https://github.com/ulises-c" target="_blank" rel="noopener" class="btn btn-primary">GitHub</a>
-        <a href="https://www.linkedin.com/in/ulises-c/" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
-        <a href="/assets/resume.pdf" target="_blank" class="btn btn-ghost">Resume ↗</a>
+        <a href="https://www.linkedin.com/in/ulises-chavarria/" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
+        <a href="#" id="resumeBtn" class="btn btn-ghost">Resume ↗</a>
       </div>
     </div>
     <div class="scroll-hint">
@@ -59,15 +59,16 @@
       <div class="about-grid">
         <div class="about-text">
           <p>
-            I'm a mechatronics and robotics systems engineer finishing my M.S. in Computer Science
-            at Santa Clara University (B.S. MechE, San Jose State). Born in Nicaragua and raised in
-            San Jose, I've been taking apart electronics since high school — phones, consoles, Macs —
-            and putting them back together better. That instinct never left.
+            I'm a mechatronics and robotics systems engineer with an  M.S. in Computer Science
+            from Santa Clara University and B.S. in Mechanical Engineering from San José State University.
+            From an early age, I've been taking apart things to see how they work
+            phones, consoles, computers, etc., and putting them back together better.
+            That instinct never left.
           </p>
           <p>
             My work sits at an uncommon intersection: I can architect a distributed ML training run
             and then flash the BLDC motor firmware that feeds it data. At Shifamed, I joined Laza
-            Medical as the 5th engineering hire — leading motor control stack feasibility from a blank
+            Medical as the 5th engineering hire for a medtech robot, leading motor control stack feasibility from a blank
             slate. I thrive in early-stage environments where the hardware and software problem spaces
             are still being defined.
           </p>
@@ -83,7 +84,14 @@
               <span class="mono accent edu-deg">B.S.</span>
               <div>
                 <strong>Mechanical Engineering</strong>
-                <span class="text-secondary">San Jose State University</span>
+                <span class="text-secondary">San José State University</span>
+              </div>
+            </div>
+            <div class="edu-item">
+              <span class="mono accent edu-deg">A.A.</span>
+              <div>
+                <strong>Japanese</strong>
+                <span class="text-secondary">Foothill College</span>
               </div>
             </div>
           </div>
@@ -165,7 +173,7 @@
           <p class="project-desc">
             Multi-class CNN achieving <strong>F1: 87.57</strong> classifying knee X-ray severity stages.
             Benchmarked EfficientNetV2, Xception, ResNet, and Vision Transformer architectures.
-            Distributed training across heterogeneous compute — RTX 3070 + M4 Mac Mini.
+            Distributed training across heterogeneous compute, RTX 3070 + M4 Mac Mini.
           </p>
           <div class="tags">
             <span class="tag">Python</span>
@@ -191,7 +199,7 @@
           </div>
           <h3 class="project-title">KELE: Socratic Teaching LLM</h3>
           <p class="project-desc">
-            Reproduction and extension of <em>KELE</em> (EMNLP 2025) — a multi-agent framework for structured
+            Reproduction and extension of <em>KELE</em> (EMNLP 2025), a multi-agent framework for structured
             Socratic teaching with LLMs. Fine-tuned and hosted SocratTeachLLM on HuggingFace;
             ran distributed evaluations on SCU WAVE GPU cluster nodes.
           </p>
@@ -221,7 +229,7 @@
           <h3 class="project-title">Automatic Wire Cutter</h3>
           <p class="project-desc">
             Mechatronics capstone (ME106, SJSU) with the Spartan Racing team. An automated machine that
-            cuts and strips wires to spec for Formula SAE wiring harness production — reducing manual
+            cuts and strips wires to spec for Formula SAE wiring harness production, reducing manual
             prep time and improving repeatability. Software lead.
           </p>
           <div class="tags">
@@ -245,7 +253,7 @@
           </div>
           <h3 class="project-title">Migo Marketplace</h3>
           <p class="project-desc">
-            Full-stack local services platform — Yelp + Google Maps + AI assistant in one.
+            Full-stack local services platform, Yelp + Google Maps + AI assistant in one.
             Map-based vendor discovery, an AI chat agent (AskMigo) for personalized recommendations,
             direct vendor messaging, and a listings management dashboard.
           </p>
@@ -297,13 +305,13 @@
           <div class="tl-dot"></div>
           <div class="tl-card">
             <div class="tl-header">
-              <h3>Shifamed — Laza Medical</h3>
+              <h3>Shifamed, Laza Medical</h3>
               <span class="tl-date mono">2022 – Present</span>
             </div>
             <p class="tl-role">Associate R&D Robotics Engineer <span class="text-secondary">/ Intern</span></p>
             <p class="tl-loc text-secondary">Campbell, CA</p>
             <ul class="tl-bullets">
-              <li>Led BLDC motor control stack feasibility as the 5th engineering hire — dual-loop PID firmware on ESP32 targeting 2 N-m torque.</li>
+              <li>Led BLDC motor control stack feasibility as the 5th engineering hire, dual-loop PID firmware on ESP32 targeting 2 N-m torque.</li>
               <li>Benchmarked custom solutions vs. OTS (Maxon/Ingenia); findings drove a strategic product pivot.</li>
               <li>Implemented BNO055 IMU tracking with Kalman filtering; built gear ratio and torque characterization test stations.</li>
               <li>Developed C++/Python drivers for magnetic tracking; integrated real-time USB sensor streaming pipelines.</li>
@@ -316,7 +324,7 @@
           <div class="tl-dot"></div>
           <div class="tl-card">
             <div class="tl-header">
-              <h3>Shifamed — Myra Vision</h3>
+              <h3>Shifamed, Myra Vision</h3>
               <span class="tl-date mono">2022</span>
             </div>
             <p class="tl-role">R&D Engineering Intern</p>
@@ -360,7 +368,7 @@
           <span class="personal-icon">📷</span>
           <h3>Photography</h3>
           <p class="text-secondary">
-            I shoot both film and digital — there's something about the deliberate pace of film that
+            I shoot both film and digital, there's something about the deliberate pace of film that
             makes you think harder about each frame. Gear of choice includes Sony Alpha bodies and
             whatever 35mm camera I'm currently running a roll through.
           </p>
@@ -371,7 +379,7 @@
           <h3>Outdoors</h3>
           <p class="text-secondary">
             Hiking and biking are my reset buttons. Growing up between Nicaragua and the Bay Area
-            gave me an appreciation for both jungle trails and coastal roads — I'll take either.
+            gave me an appreciation for both jungle trails and coastal roads, I'll take either.
           </p>
         </div>
 
@@ -379,7 +387,7 @@
           <span class="personal-icon">🖥</span>
           <h3>Building Things</h3>
           <p class="text-secondary">
-            I've been building and repairing PCs, phones, and consoles since high school — not just
+            I've been building and repairing PCs, phones, and consoles since high school, not just
             as a hobby but because I genuinely like understanding how things come apart and go back
             together. I also run a 3D printer for prototyping and one-off designs.
           </p>
@@ -390,8 +398,19 @@
           <h3>Games</h3>
           <p class="text-secondary">
             Board games and video games both scratch the same itch: systems with rules worth
-            understanding deeply. Favorites tend toward strategy and co-op — the kind where
+            understanding deeply. Favorites tend toward strategy and co-op, the kind where
             talking through a bad decision is half the fun.
+          </p>
+        </div>
+
+        <div class="personal-card">
+          <span class="personal-icon">🗣</span>
+          <h3>Languages</h3>
+          <p class="text-secondary">
+            Fluent in English, Spanish, and Japanese, each one a different way of thinking.
+            Spanish is home, English is work, and Japanese has been the most rewarding challenge:
+            an A.A., a study abroad semester in Japan, and a perspective shift that rewired how
+            I approach learning anything new.
           </p>
         </div>
 
@@ -433,6 +452,36 @@
     </p>
   </footer>
 
+  <!-- ==================== RESUME MODAL ==================== -->
+  <div class="pdf-modal" id="pdfModal" role="dialog" aria-modal="true" aria-label="Resume viewer">
+    <div class="pdf-modal-backdrop" id="pdfBackdrop"></div>
+    <div class="pdf-modal-box">
+      <div class="pdf-toolbar">
+        <span class="mono accent pdf-toolbar-title">resume.pdf</span>
+        <div class="pdf-toolbar-actions">
+          <a href="assets/resume.pdf" download="Ulises_Chavarria_Resume.pdf" class="btn btn-ghost pdf-dl-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            Download
+          </a>
+          <button class="pdf-close-btn" id="pdfClose" aria-label="Close">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+              <line x1="18" y1="6" x2="6" y2="18"/>
+              <line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="pdf-frame" id="pdfViewer">
+        <p class="pdf-loading" id="pdfLoading"><span class="mono accent">Loading…</span></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
