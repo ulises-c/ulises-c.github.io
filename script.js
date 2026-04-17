@@ -77,3 +77,27 @@ document.querySelectorAll(fadeTargets.join(',')).forEach(el => {
   el.classList.add('fade-up');
   observer.observe(el);
 });
+
+/* ================================================
+   PDF MODAL
+   ================================================ */
+const pdfModal    = document.getElementById('pdfModal');
+const pdfClose    = document.getElementById('pdfClose');
+const pdfBackdrop = document.getElementById('pdfBackdrop');
+
+document.getElementById('resumeBtn').addEventListener('click', e => {
+  e.preventDefault();
+  pdfModal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+});
+
+function closePdfModal() {
+  pdfModal.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+pdfClose.addEventListener('click', closePdfModal);
+pdfBackdrop.addEventListener('click', closePdfModal);
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closePdfModal();
+});
