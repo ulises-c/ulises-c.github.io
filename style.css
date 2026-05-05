@@ -510,7 +510,38 @@ strong { color: var(--cyan); font-weight: 600; }
   flex: 1;
 }
 
-.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 4px;
+}
+
+.project-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: var(--r);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--text-2);
+  border: 1px solid var(--border);
+  background: transparent;
+  transition: color 0.18s, border-color 0.18s, transform 0.18s;
+  cursor: pointer;
+  text-decoration: none;
+}
+.project-action-btn:hover {
+  color: var(--cyan);
+  border-color: var(--cyan-dim);
+  transform: translateY(-1px);
+}
 
 .tag {
   padding: 3px 10px;
