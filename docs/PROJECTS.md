@@ -7,6 +7,12 @@ Tracks content from the old Google Sites portfolio
 
 ## ✅ Added — Already on New Site
 
+### Tic-Tac-Toe / Google CSSI
+- **Dates:** Jul – Aug 2020
+- **Description:** Google Computer Science Summer Institute (4-week intensive). Group final project: Tic-Tac-Toe with algorithms and web hosting. Won **"Most Technical Project" Award**.
+- **GitHub:** https://github.com/ulises-c/Tic-Tac-Toe-CSSI
+- **Certificate:** `assets/google_cssi_cert.png`
+
 ### Automatic Wire Cutter
 - **Dates:** Aug – Dec 2021
 - **Old site:** ME 106 (Mechatronics) capstone, group of 3, Ulises = Software Lead. GitHub + YouTube demo + term report PDF linked.
@@ -22,13 +28,6 @@ Tracks content from the old Google Sites portfolio
 ---
 
 ## ❌ Not Yet Added — Worth Transferring
-
-### Tic-Tac-Toe / Google CSSI
-- **Dates:** Jul – Aug 2020
-- **Description:** Google Computer Science Summer Institute (4-week intensive). Group final project: Tic-Tac-Toe with algorithms and web hosting. Won **"Most Technical Project" Award**.
-- **Why add:** Google affiliation + award = strong credential. Early programming milestone.
-- **GitHub:** https://github.com/ulises-c/Tic-Tac-Toe-CSSI
-- **CSSI Program:** https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute/
 
 ### Discord Bot via NodeJS
 - **Dates:** Apr – Aug 2020
