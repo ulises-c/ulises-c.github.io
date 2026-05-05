@@ -2,6 +2,8 @@
 
 Personal portfolio site for Ulises Chavarria — hosted on GitHub Pages at [ulises-c.github.io](https://ulises-c.github.io/).
 
+Custom domain: [ulises-c.me](https://ulises-c.me)
+
 ## Stack
 
 - Vanilla HTML, CSS, JavaScript — no build step, no frameworks
